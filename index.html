@@ -5,10 +5,13 @@
   <title>Lambda Times</title>
   <link rel="stortcut icon" href="./favicon.ico">
   <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="./components/Tabs/Tabs.js" async></script>
-  <!-- <script src="./components/Carousel/Carousel.js" async></script> -->
+  <script src="./components/Carousel/Carousel.js" async></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
+
 </head>
 
 <body>
@@ -30,7 +33,7 @@
 
   <!-- HEADER COMPONENT -->
   <div class="header">
-    <span class="date">SMARCH 28, 2018</span>
+    <span class="date">MARCH 28, 2018</span>
     <h1>Lambda Times</h1>
     <span class="temp">98°</span>
   </div>
@@ -45,19 +48,21 @@
       <div data-tab="node" class="tab">NODE.JS</div>
       <div data-tab="jquery" class="tab">jQUERY</div>
       <div data-tab="bootstrap" class="tab">BOOTSTRAP</div>
+      <div data-tab="lifestyle" class="tab">LIFESTYLE</div>
+      <div data-tab="opinion" class="tab">OPINION</div>
     </div>
   </div>
 
   <!-- STRETCH GOAL: ONLY UNCOMMENT THIS WHEN YOU ARE FINISHED WITH THE MAIN OBJECTIVE -->
   <!-- CAROUSEL COMPONENT -->
-  <!-- <div class="carousel">
+  <div class="carousel">
     <div class="left-button"><</div>
     <img src="./assets/carousel/mountains.jpeg" />
     <img src="./assets/carousel/computer.jpeg" />
     <img src="./assets/carousel/trees.jpeg" />
     <img src="./assets/carousel/turntable.jpeg" />
     <div class="right-button">></div>
-  </div> -->
+  </div>
 
   <!-- CARDS COMPONENT -->
   <div class="cards-container">
@@ -102,7 +107,7 @@
         <span>By MAX GOODBOYE</span>
       </div>
     </div>
-
+ 
     <div class="card" data-tab="jquery">
       <div class="headline">History of Javascript Libraries: from jQuery to React</div>
       <div class="author">
@@ -210,6 +215,27 @@
           <img src="./assets/max.jpg" />
         </div>
         <span>By MAX GOODBOYE</span>
+      </div>
+    </div> 
+
+    <div class="card" data-tab="opinion">
+      <div class="headline">HTML is a Language: <br>Change my mind. <i class="em em-coffee"></i></div>
+      <div class="author">
+        <div class="img-container">
+          <img src="./assets/sir.jpg" />
+        </div>
+        <span>By SIR RUFF'N'STUFF</span>
+      </div>
+    </div>
+
+    <div class="card" data-tab="lifestyle">
+      <div style="font-size: 20px" class="headline">Why I quit being a professional developer, divorced my wife, 
+        lit my entire life savings on fire and moved back into my parent's basement.</div>
+      <div class="author">
+        <div class="img-container">
+          <img src="./assets/bones.jpg" />
+        </div>
+        <span>By BONES R. LIFE</span>
       </div>
     </div>
 
