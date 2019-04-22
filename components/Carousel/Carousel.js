@@ -28,7 +28,6 @@ class Carousel {
     }
 
     displayCurrentImage() {
-        console.log(TweenMax);
         this.images.forEach((image => image.style.display = 'none'));
         this.images[this.imgIndex].style.display = 'initial';
     }
